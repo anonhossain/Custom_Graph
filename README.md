@@ -27,7 +27,29 @@ Follow these steps to set up the project and generate your own commit graph.
 #### 1. Clone the repository:
 Open your terminal and run the following command to clone the repository to your local machine:
 ```bash
-git clone https://github.com/your-username/Custom_Graph.git
+git clone https://github.com/anonhossain/Custom_Graph.git
+```
 
+#### 2. Navigate to the folder:
+```bash
+cd Custom_graph
+```
 
+#### 3. Add Patterns:
+Add Patterns of your text in font.py file. Take help from Google or AI to make the patterns
 
+#### 4. Run the Script:
+Execute the main.py script to start generating the commit graph. You will be prompted to enter the text you want to draw:
+```bash
+python main.py
+```
+**The script will:**
+
+- Make the necessary commits (multiple commits per day for a darkened effect).
+- Save the commit history to a file called file.txt
+
+#### 5. Push the Commits to Github  
+Execute the main.py script to start generating the commit graph. You will be prompted to enter the text you want to draw:
+```bash
+python main.py
+```
