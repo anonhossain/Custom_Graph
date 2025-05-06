@@ -24,7 +24,7 @@ This fun project allows you to generate commit graphs on GitHub in the shape of 
 
 Follow these steps to set up the project and generate your own commit graph.
 
-### 1. Clone the repository:
+#### 1. Clone the repository:
 Open your terminal and run the following command to clone the repository to your local machine:
 ```bash
 git clone https://github.com/your-username/Custom_Graph.git
