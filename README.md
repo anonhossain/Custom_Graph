@@ -1,4 +1,4 @@
-#Custom_Commit Graph
+# Custom_Commit Graph
 This fun project allows you to generate commit graphs on GitHub in the shape of custom text (A-Z, space only). You can input any text, and the script will create a unique visual pattern in your GitHub contributions based on that text.
 
 ## How It Works
