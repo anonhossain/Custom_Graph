@@ -53,3 +53,6 @@ Execute the main.py script to start generating the commit graph. You will be pro
 ```bash
 python main.py
 ```
+
+##### 6. Wait for Github profile to update:
+It might take 5–10 minutes for the contribution graph to update on GitHub.
