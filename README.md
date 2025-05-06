@@ -32,7 +32,7 @@ git clone https://github.com/anonhossain/Custom_Graph.git
 
 #### 2. Navigate to the folder:
 ```bash
-cd Custom_graph
+cd Custom_Graph
 ```
 
 #### 3. Add Patterns:
