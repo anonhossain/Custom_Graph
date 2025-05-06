@@ -1,5 +1,3 @@
-# main.py
-
 import os
 import datetime
 from font import FONT
@@ -26,10 +24,14 @@ for week in range(len(pattern[0])):
                 with open("file.txt", "a") as f:
                     f.write(f"{date} {i}\n")
                 os.system("git add file.txt")
-                os.system(
-                    f"GIT_AUTHOR_DATE='{date}T12:00:00' "
-                    f"GIT_COMMITTER_DATE='{date}T12:00:00' "
-                    f"git commit -m 'Commit {i} on {date}'"
-                )
+                
+                # Set the environment variables for Git on Windows
+                os.environ['GIT_AUTHOR_DATE'] = f"{date}T12:00:00"
+                os.environ['GIT_COMMITTER_DATE'] = f"{date}T12:00:00"
+                os.system(f'git commit -m "Commit {i} on {date}"')
+
+                # Clean up environment variables after each commit
+                del os.environ['GIT_AUTHOR_DATE']
+                del os.environ['GIT_COMMITTER_DATE']
 
 print("\n✅ Done! Now push the commits to GitHub.")
