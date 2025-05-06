@@ -13,7 +13,7 @@ for char in text:
         pattern[i] += FONT[char][i] + ' '  # space between characters
 
 # Starting date (must be a Sunday to align with GitHub graph)
-start_date = datetime.date(2023, 1, 1)  # Set this to a Sunday
+start_date = datetime.date(2024, 1, 1)  # Set this to a Sunday
 
 # Generate commits based on pattern
 for week in range(len(pattern[0])):
